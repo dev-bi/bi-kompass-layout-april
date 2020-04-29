@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>BI - Kompass (BASIC TEMPLATE)</title>
+</head>
+<body>
+     <!-- Header -->
+
+    <!-- Logo, Schriftzug und Burgermenü -->
+    <div id="head" class="header">
+        <h2 class="bi-header"><a href="#">BI - Kompass</a></h1>
+    </div>
+    <div id="nav" class="nav">
+
+        <div id="js-burger" class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <!-- Bereiche -->
+        <div id="bi-main-menu" class="bi-main-menu menu-nav">
+            <ul>
+                <li><a href="#" style="color:#fb8c84">Dev-Bereich</a></li>
+                <li><a href="#">Primo</a></li>
+                <li><a href="#">Reha</a></li>
+                <li><a href="#">Vario</a></li>
+                <li><a href="#">Fachbereiche</a></li>
+                <li><a href="#">Suche</a></li>
+            </ul>   
+        </div>
+        <!-- Menü für geschützten Bereich -->
+        <div id="bi-login-logout" class="bi-main-menu menu-login-logout">
+            <ul>
+                <li><a href="#">Stefan Simon</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <script>
+        /*
+        * Toggle Nav-Bar (Bei weniger als 769px)
+        *
+        * Klappt Menü ein und aus, wenn man das Burgersymbol klickt/berührt
+        */
+        const burger = document.getElementById('js-burger');
+        const burgerNav = document.getElementById('bi-main-menu');
+
+        burger.addEventListener('click', function() {
+            burgerNav.classList.toggle('menu-nav-active'); 
+        }); 
+
+    </script>
+    <!----------------->
+    <!-- HEADER ENDE -->
+    <!----------------->
+
+    <!-------------------->
+    <!--    CONTENT     -->
+    <!-------------------->
+
+    <div class="container-flex">
+        <div id="dev-page-links">
+            <h2>Hauptartikel</h2>
+            <ul class="bi-menu bi-articles">
+                <li><a href="#">Bericht über Corona</a></li>
+                <li><a href="#">Tragisches Ende einer Ära</a></li>
+                <li><a href="#">Neues aus der IT</a></li>
+                <li><a href="#">Das Meerschwein quieckt lauter als gedacht</a></li>
+                <li><a href="#">Ein neuer Bericht</a></li>
+            </ul>
+        </div>
+
+        <div class="content-container">
+            <div class="bi-kompass-content-container">
+                <h2>Wirklich wichtige News</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
+
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
+                </p>
+                <hr>
+            </div>
+            <div class="bi-kompass-content-container">
+                <h2>Lesebrille 2.0</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.   
+
+Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
+                </p>
+                <hr>
+            </div>
+            <div class="bi-kompass-content-container">
+                <h2>Die Tischlerei schließt wegen Corona</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+                </p>
+                <hr>
+            </div>
+
+        </div>
+
+        <div id="bi-app-container">
+            <h3>Pfadfinder</h3>
+            <ul class="bi-menu">
+                <li><a href="#">Suche</a></li>
+                <li><a href="#">Interaktiver Raumplan</a></li>
+                <li><a href="#">IaK Finder</a></li>
+            </ul>
+        </div>  
+    </div>
+    <!-------------------->
+    <!--  CONTENT ENDE  -->
+    <!-------------------->
+    
+   
+    <!-------------------->
+    <!--    FOOTER      -->
+    <!-------------------->
+    <div id="footer">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">Noch ein Link</a>
+    </div>
+    <!-------------------->
+    <!--  FOOTER ENDE   -->
+    <!--------------------> 
+    
+</body>
+</html>
