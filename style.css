@@ -3,7 +3,7 @@ html {
 }
 body {
     margin: 0;
-    font-family:'Montserrat', sans-serif;
+    font-family:'Poppins', sans-serif;
     background-color: white;
 }
 
@@ -152,7 +152,11 @@ body {
 
     .burger {
         display: block;
-    }    
+    }
+
+    .bi-kompass-component {
+        display: none;
+    }
 }
 
 /* Containerklassen */
@@ -329,6 +333,7 @@ h1, h2, h3, h4 {
 
     #dev-page-links {
     }
+    
     #bi-app-container {
         display:none;
     }
