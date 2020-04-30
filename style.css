@@ -162,16 +162,6 @@ code {
     display: inline-block;
 }
 
-
-/*
-.current-link {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    padding: 0 15px;
-    width: auto;
-}*/
-
 .container-flex {
     width: 75%;
     margin: 0 auto;
@@ -216,7 +206,7 @@ h1, h2, h3, h4 {
 }
 
 .page-menu-items li {
-    display: inline-block;
+    display: block;
     margin: 6px 0;
     font-size: small;
 }
@@ -283,8 +273,6 @@ h1, h2, h3, h4 {
 #footer a {
     text-decoration: none;
     color: white;
-    /*margin: 50px;
-    padding-left: 50px;*/
 }
 
 @media screen and (max-width: 1200px) {
