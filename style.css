@@ -204,6 +204,10 @@ h1, h2, h3, h4 {
     font-size: small;
 }
 
+.article-items a:hover {
+    text-decoration: underline;
+}
+
 .items {
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -224,8 +228,9 @@ h1, h2, h3, h4 {
 
 }
 
-.page-menu-items a:hover {
-    text-decoration: underline;
+.page-menu-items li:hover {
+    /*text-decoration: underline;*/
+    background-color: #D4E6F1;
 }
 
 
