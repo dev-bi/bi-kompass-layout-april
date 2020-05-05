@@ -201,11 +201,19 @@ h1, h2, h3, h4 {
 }
 
 .article-items li {
-    font-size: small;
+
 }
 
 .article-items a:hover {
     text-decoration: underline;
+}
+
+.article-area {
+    font-size: small;
+}
+
+.article-title {
+    /*font-weight: bold;*/
 }
 
 .items {
