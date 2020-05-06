@@ -163,10 +163,11 @@ code {
 }
 
 .container-flex {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     background-color: white;
+    margin-top: 50px;
 }
 
 h1, h2, h3, h4 {
@@ -251,6 +252,7 @@ h1, h2, h3, h4 {
     margin-left: 50px;
     height: 250px;
     background-color: white;
+    margin-bottom: 25px;
 }
 
 .bi-app-container li {
@@ -281,6 +283,28 @@ h1, h2, h3, h4 {
 #page-header {
     margin-top: 25px;
     text-align: center;
+}
+
+.read-more {
+
+}
+
+.read-more__link {
+    font-weight: bold;
+    color: #1F618D;
+}
+
+.author-sign {
+    text-align: right;
+}
+
+.date {
+    font-size: small;
+    padding-left: 5%;
+}
+
+.bi-kompass-content-container {
+
 }
 
 .footer {
